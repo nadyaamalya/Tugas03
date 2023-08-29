@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Latihan CSS</title>
+    <!-- Internal CSS -->
+    <style>
+      h1 {
+        color: lightblue;
+      }
+      p {
+        font-family: Verdana;
+      }
+      li {
+        color: cornflowerblue;
+      }
+    </style>
+    <!-- Exline CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- inline CSS -->
+    <div class="nomor1">
+      <h1 style="color: red; border-bottom: 1px solid red">Belajar CSS</h1>
+      <h3>Apa itu CSS?</h3>
+      <p>
+        CSS atau Cascading Style Sheet adalah dokumen web yang memiliki fungsi
+        mengatur tampilan dokumen web lain, yaitu HTML. Beberapa contoh
+        pemanfaatan CSS pada HTML adalah untuk mengatur warna latar belakang,
+        gaya huruf, jarak antara elemen, dan masih banyak lagi <br />
+        CSS terdiri atas kumpulan kode-kode yang keberadaannya tidak
+        menggantikan HTML melainkan pelengkap agar tampilan dokumen HTML menjadi
+        lebih indah dan dinamis. Berikut ini adalah contoh dokumen CSS.
+      </p>
+      <h3>Bagaimana menggunakan CSS?</h3>
+      <p>Ada 3 cara menggunakan CSS:</p>
+      <ol>
+        <li>
+          inline styles: Menuliskan kode CSS langsung pada tag yang akan diubah
+          atau diatur style-nya
+        </li>
+        <li>
+          Internal/Embedded Styles : Menuliskan kode CSS bagian header dokumen
+          HTML
+        </li>
+        <li>
+          Eksternal/Linked Styles : Menuliskan kode CSS pada file terpisah dan
+          dipanggil melalui tag link dari dokumen HTML
+        </li>
+      </ol>
+    </div>
+    <div class="nomor2">
+      <img src="../kucing.jpeg" alt="" />
+      <!-- id = memberi tanda khusus elemen, tidak boleh sama -->
+      <h1 id="judul">Ini Kucing</h1>
+      <!-- class = bisa dipakai berkali2, kalau id tidak digunakan berkali2 -->
+      <h1 class="tengah">INI Pipo</h1>
+      <h1 class="tengah">HELLO</h1>
+      <h3>Hallo 3</h3>
+    </div>
+    <div class="nomor3">
+      Latihan CSS Hyperlink dan Button
+      <a href="https://www.detik.com/">Klik Link ini</a>
+      <button class="button">Klik Tombol Ini</button>
+    </div>
+    <div class="nomor4">
+        <table style="border-collapse: collapse; font-family: Verdana;">
+            <thead style="width: 50px;">
+                <tr>
+                    <td>No</td>
+                    <td>Nama</td>
+                    <td>Alamat</td>
+                </tr>
+            </thead>
+            <tbody>
+                <tr id="ganjil">
+                    <td>1</td>
+                    <td> Amanda</td>
+                    <td> Malang</td>
+                </tr>
+                <tr id="genap">
+                    <td>2</td>
+                    <td> Bobby</td>
+                    <td> Blitar</td>
+                </tr>
+                <tr id="ganjil">
+                    <td>3</td>
+                    <td> Charlie</td>
+                    <td> Tulungagung</td>
+                </tr>
+                <tr id="genap">
+                    <td>4</td>
+                    <td> Diana</td>
+                    <td> Jombang</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+  </body>
+</html>

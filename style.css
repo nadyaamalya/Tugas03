@@ -1,0 +1,102 @@
+/* Nomor 1 */
+.nomor1 h1 {
+  color: lightblue;
+  font-family: arial;
+  font-size: 50px;
+  text-align: center;
+}
+
+.nomor1 p {
+  text-indent: 30px;
+  line-height: 1.5;
+  font-size: 16px;
+  color: royalblue;
+}
+
+.nomor1 li {
+  color: cornflowerblueq;
+  font-size: 12px;
+  font-family: cursive;
+}
+
+/* Nomor 2 */
+.nomor2 img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50px;
+
+  /* Menengahkan Gambar */
+  display: block;
+  margin: 0px auto 0px auto;
+}
+
+.nomor2 h1 {
+  color: black;
+}
+.nomor2 #judul {
+  color: orange;
+}
+.nomor2 .tengah {
+  align-self: center;
+  color: blue;
+}
+
+.nomor2 h2,
+h3,
+h4 {
+  color: midnightblue;
+}
+.nomor2 .tengah {
+  color: pink;
+}
+
+.nomor3 a:link {
+  color: midnightblue;
+}
+.nomor3 a:visited {
+  color: green;
+}
+.nomor3 a:hover {
+  color: orange;
+}
+.nomor3 a:active {
+  color: darkcyan;
+}
+.button {
+  border-radius: 5px;
+  background-color: midnightblue;
+  border: none;
+  text-align: center;
+  font-size: 28px;
+}
+.button:hover {
+  background-color: orange;
+}
+.button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+}
+
+.nomor4 table tr td:first-child {
+  width: 50px;
+}
+.nomor4 table tr td:not(:first-child) {
+  width: 100px;
+  border-bottom: 1px solid white;
+}
+.nomor4 thead td {
+  background-color: blue;
+}
+#ganjil {
+  background-color: #81cfe0;
+  color: white;
+}
+#genap {
+  background-color: #81cfe0;
+  color: white;
+}
+
+td:hover {
+    background-color: #ffd700;
+    color: #333;
+}
